@@ -30,7 +30,7 @@ The project covers:
 - Model Evaluation
 - Production-Ready Inference Pipeline
 
-The goal is to showcase practical Data Science and Big Data skills relevant for Data Science and Machine Learning roles in domains such as:
+The goal is to improve and grow practical Data Science and Big Data skills relevant for Data Science and Machine Learning domains roles such as:
 
 - Insurance
 - Banking
@@ -331,7 +331,7 @@ Generated:
 ## Step 3: Preprocess Data
 
 ```bash
-python src/02_preprocessing.py
+python src/preprocessing.py
 ```
 
 Generated:
@@ -345,7 +345,7 @@ data/processed/cleaned_data.parquet
 ## Step 4: Feature Engineering
 
 ```bash
-python src/03_feature_engineering.py
+python src/feature_engineering.py
 ```
 
 Generated:
@@ -360,7 +360,7 @@ data/processed/test_data.parquet
 ## Step 5: Train Logistic Regression
 
 ```bash
-python src/04_train_logistic_regression.py
+python src/train_logistic_regression.py
 ```
 
 Generated:
@@ -374,7 +374,7 @@ models/logistic_regression/
 ## Step 6: Train Naive Bayes
 
 ```bash
-python src/05_train_naive_bayes.py
+python src/train_naive_bayes.py
 ```
 
 Generated:
@@ -388,7 +388,7 @@ models/naive_bayes/
 ## Step 7: Evaluate Models
 
 ```bash
-python src/06_evaluate_models.py
+python src/evaluate_models.py
 ```
 
 Generated:
@@ -406,7 +406,7 @@ plots/confusion_matrix_nb.png
 ## Step 8: Predict New Text
 
 ```bash
-python src/07_predict_new_text.py
+python src/predict_new_text.py
 ```
 
 ---
